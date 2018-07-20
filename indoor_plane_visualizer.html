@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Indoor Plane Visualizer</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+			
+			body {
+				font-family: "Lato", sans-serif;
+			}
+
+			.sidenav {
+				height: 100%;
+				width: 400px;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: #ffcc66;
+				overflow-x: hidden;
+				padding-top: 20px;
+			}
+
+			header {
+				padding-top: 12px;
+				background-color:  #ffe6b3;
+			}
+
+			.sidenav h1{
+				padding-bottom: 18px;
+				padding-left: 20px;
+				color: rgb(0, 0, 0);
+				font-family: verdana;
+				font-size: 250%;
+			}
+
+			.sidenav h2{
+				padding-bottom: 18px;
+				padding-left: 20px;
+				color: #800000;
+				font-family: Arial;
+				font-size: 180%;
+			}
+
+			.sidenav a {
+				padding: 20px 28px 6px 26px;
+				text-decoration: none;
+				font-size: 25px;
+				color: #818181;
+				display: block;
+				cursor: pointer;
+			}
+
+
+			.sidenav a:hover {
+				color: #f1f1f1;
+			}
+
+			.main {
+				margin-left: 160px; /* Same as the width of the sidenav */
+				font-size: 28px; /* Increased text to enable scrolling */
+				padding: 0px 10px;
+			}
+
+			@media screen and (max-height: 450px) {
+				.sidenav {padding-top: 15px;}
+				.sidenav a {font-size: 18px;}
+			}
+
+			.sidenav img {
+				padding-left: 20px;
+				float:left;
+				margin-right:1rem;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="sidenav">
+			<header>
+				<img src='media/transforma.png' >
+				<h1>    Transforma   - PictoBot </h1>
+			</header>
+
+			<!-- <h2>   PictoBot <h2> -->
+			<ol>
+				<h2 style="property:value;" >Planar List</h1>
+			</ol>
+		</div>
+		
+		<!-- test source -->
+		<!-- <div id="container">HIHIHI</div> -->
+		<div id="container2"></div>
+
+		<!-- <script src="js/three.js"></script>
+		<script src="../js/controls/TrackballControls.js"></script> -->
+		<script src="https://cdn.rawgit.com/mrdoob/three.js/master/build/three.min.js"></script>
+		<script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/Detector.js"></script>
+		<script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/libs/stats.min.js"></script>
+		<script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+
+		<script src="js/planeVisualizer.js"></script>
+
+		</script>
+	</body>
+</html>
+
+
