@@ -11,6 +11,7 @@ Basic role of this pakage:
 4. Node server will subcribe and publish results to Roscore.
 5. ThreeJS Javascript Lib is used to visualized the polygons
 
+
 ## Installation
 
 #### 1. Install Node JS
@@ -52,6 +53,7 @@ if `node server.js` cant be run, the main prob is the IP address of ur device is
 Once done, rerun the above `node server.js`. Then enter the respective address in a web browser.
 
 
+
 ## Using this package
 
 - Open Web IP in a web browser
@@ -61,6 +63,27 @@ Once done, rerun the above `node server.js`. Then enter the respective address i
 - User can select the desired plane, and the selection will be sent to the the Robot Task Planner.
 
 **Site is shown here:** ![figure_path_plan](media/pictoWebVisualizer.png)
+
+
+## File Structure
+
+#### server.js
+- node hosting server
+- ros publisher and subscriber
+- render `indoor_plane-visualizer.html`
+- sending of datas to web clients
+
+#### indoor_plane_visualizer.html
+- css and html
+- call dependended JS lib (cdn) and `../planeVisualizer.js`
+
+#### ../planeVisualizer.js
+- main threejs scene generation
+- polygons and planes generation of html
+- sidebar list and clicks
+
+#### ../three.js
+- webgl functionality
 
 ## Contact
 
