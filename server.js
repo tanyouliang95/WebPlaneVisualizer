@@ -10,6 +10,8 @@ app.use('/js', express.static(__dirname + '/js/'));
 app.use('/media', express.static(__dirname + '/media/'));
 
 
+
+// ===================== NodeJS Web Hosting Server ======================
 console.log("Creating Server...");
 
 // testing, to change ready Mode to true
@@ -43,6 +45,7 @@ app.get('/', function (req, res) {
       });
 })
 
+// Change the IP according to the current device, port can be any.
 app.listen(8080, "192.168.1.108");
 console.log("http:/192.168.1.108:8080/");
 
