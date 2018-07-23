@@ -13,7 +13,7 @@ Basic role of this pakage:
 
 ## Installation
 
-1. Install Node JS
+** 1. Install Node JS **
 
 ```
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -24,7 +24,7 @@ nodejs -v
 * node version needed to be above node v8, or refer here:
  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 
-2. Install ROS
+** 2. Install ROS **
 
 http://wiki.ros.org/ROS/Installation
 
@@ -58,6 +58,8 @@ Once done, rerun the above `node server.js`. Then enter the respective address i
 - Site will remain empty while waiting for ROS msg from a ROSTopic: `/planeBorders`. 
 - When ROS Msg is received by the publisher server, the website will visualizer the published plane borders in a 3D scene. 
 - User can select the desired plane, and the selection will be sent to the the Robot Task Planner.
+
+Site is shown here: ![figure_path_plan](media/pictoWebVisualizer.png)
 
 ## Contact
 
