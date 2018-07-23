@@ -13,7 +13,7 @@ Basic role of this pakage:
 
 ## Installation
 
-###### 1. Install Node JS **
+#### 1. Install Node JS
 
 ```
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -24,14 +24,14 @@ nodejs -v
 * node version needed to be above node v8, or refer here:
  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 
-###### 2. Install ROS
+#### 2. Install ROS
 
 http://wiki.ros.org/ROS/Installation
 
 * Preferably ROS Kinetic
 
 
-###### 3. Run ROS and Node
+#### 3. Run ROS and Node
 
 After installation of ROS and Node are completed, user can start to test run the server.
 
@@ -45,7 +45,7 @@ Run server in another terminal
 By now, user can access the site while enter the respective IP in a web browser. e.g: http:/192.168.1.108:8080/
 
 
-###### 4. Change of IP address.
+#### 4. Change of IP address.
 
 if `node server.js` cant be run, the main prob is the IP address of ur device is different to the one in the server.js script. Essentially, User will need to open the `server.js` file, change the ip address to the current device ip address. Enter `ifconfig` to check the IP address of the current device. 
 
@@ -60,7 +60,7 @@ Once done, rerun the above `node server.js`. Then enter the respective address i
 - When ROS Msg is received by the publisher server, the website will visualizer the published plane borders in a 3D scene. 
 - User can select the desired plane, and the selection will be sent to the the Robot Task Planner.
 
-Site is shown here: ![figure_path_plan](media/pictoWebVisualizer.png)
+**Site is shown here:** ![figure_path_plan](media/pictoWebVisualizer.png)
 
 ## Contact
 
