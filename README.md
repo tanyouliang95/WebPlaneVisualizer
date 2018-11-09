@@ -11,6 +11,8 @@ Basic role of this pakage:
 4. Node server will subcribe and publish results to Roscore.
 5. ThreeJS Javascript Lib is used to visualized the polygons
 
+* This nodeJs server receive ROS msg from [PCL plane segmentation](https://github.com/tanyouliang95/pcl_indoorPlaneSegmentation). Do run the ros service package `.../ros_pkg_srv` for full implementation.
+
 
 ## Installation
 
