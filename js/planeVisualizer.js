@@ -1,3 +1,9 @@
+/*
+*Create By Tan You Liang, Under Transforma Project
+*Jul 2018, CopyRight
+*Acknowledge before using this code
+*/
+
 
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
