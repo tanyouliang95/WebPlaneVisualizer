@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This ROSNodeJS Package is a server based plane visualizer. The main function of this package is to visualized the planar infos of the PictoBot detected planes. 
+This Web server Package is a based of a ROS plane visualizer, leverage on [ROSNodeJS](http://wiki.ros.org/rosnodejs). The main function of this package is to visualized the planar infos of the PictoBot detected planes. 
 
 Basic role of this pakage:
 1. Nodejs will act as server, subcriber and publisher of ROS. 
@@ -29,12 +29,15 @@ nodejs -v
 
 * or! for different version selection, its optional to use `node version manager` (nvm) to conduct installation, in the same link above.
 
-#### 2. Install ROS
+#### 2. Install ROS and ROSnodejs
 
 http://wiki.ros.org/ROS/Installation
 
 * Preferably ROS Kinetic
 
+```
+npm install rosnodejs
+```
 
 #### 3. Run ROS and Node
 
