@@ -13,6 +13,7 @@ Basic role of this pakage:
 
 * This nodeJs server receive ROS msg from [PCL plane segmentation](https://github.com/tanyouliang95/pcl_indoorPlaneSegmentation). Do run the ros service package `.../ros_pkg_srv` for full implementation.
 
+for different version, its optional to use [node version manager](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/) to install
 
 ## Installation
 
