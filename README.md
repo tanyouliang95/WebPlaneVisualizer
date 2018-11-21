@@ -44,11 +44,14 @@ npm install rosnodejs
 After installation of ROS and Node are completed, user can start to test run the server.
 
 Run Roscore
-> roscore
-
+```
+roscore
+```
 Run server in another terminal
-> cd ../WebPlaneVisualizer
-> node server.js
+```
+cd ../WebPlaneVisualizer
+node server.js
+```
 
 By now, user can access the site while enter the respective IP in a web browser. e.g: http:/192.168.1.108:8080/
 
