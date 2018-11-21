@@ -27,7 +27,7 @@ nodejs -v
 * node version needed to be above node v8, or refer here:
  https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 
-* or! for different version, its optional to use [node version manager](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/) to install
+* or! for different version, its optional to use node version manager, in the same link above.
 
 #### 2. Install ROS
 
